@@ -12,17 +12,21 @@
     "node": "4.2.x"
   },
   "scripts": {
-    "test": "node_modules/.bin/mocha"
+    "test": "node_modules/.bin/mocha",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "express": "4.x",
     "request": "2.67.x",
     "body-parser": "1.14.2",
-    "socket.io": "1.x"
+    "socket.io": "1.x",
+    "snyk": "^1.192.4"
   },
   "devDependencies": {
     "mocha": "2.3.x",
     "nock": "7.0.x",
     "socket.io-client": "1.x"
-  }
+  },
+  "snyk": true
 }
