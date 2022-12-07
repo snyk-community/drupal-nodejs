@@ -16,8 +16,8 @@
   },
   "dependencies": {
     "express": "4.x",
-    "request": "2.67.x",
-    "body-parser": "1.14.2",
+    "request": "2.73.0",
+    "body-parser": "1.19.2",
     "socket.io": "1.x"
   },
   "devDependencies": {
